@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14068F05168A001400FA0A02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14068F04168A001400FA0A02 /* UIKit.framework */; };
+		14068F07168A001400FA0A02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14068F06168A001400FA0A02 /* Foundation.framework */; };
+		14068F09168A001400FA0A02 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14068F08168A001400FA0A02 /* CoreGraphics.framework */; };
+		14068F0F168A001400FA0A02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14068F0D168A001400FA0A02 /* InfoPlist.strings */; };
+		14068F11168A001400FA0A02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14068F10168A001400FA0A02 /* main.m */; };
+		14068F15168A001400FA0A02 /* SRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14068F14168A001400FA0A02 /* SRAppDelegate.m */; };
+		14068F17168A001400FA0A02 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 14068F16168A001400FA0A02 /* Default.png */; };
+		14068F19168A001400FA0A02 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14068F18168A001400FA0A02 /* Default@2x.png */; };
+		14068F1B168A001400FA0A02 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14068F1A168A001400FA0A02 /* Default-568h@2x.png */; };
+		14068F1E168A001400FA0A02 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14068F1C168A001400FA0A02 /* MainStoryboard.storyboard */; };
+		14068F21168A001400FA0A02 /* SRMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14068F20168A001400FA0A02 /* SRMasterViewController.m */; };
+		14068F24168A001400FA0A02 /* SRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14068F23168A001400FA0A02 /* SRDetailViewController.m */; };
+		14068F2F168A01B100FA0A02 /* KTouchPointerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 14068F2E168A01B100FA0A02 /* KTouchPointerWindow.m */; };
+		14068F31168A02B300FA0A02 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14068F30168A02B300FA0A02 /* AVFoundation.framework */; };
+		14068F37168A13DA00FA0A02 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14068F36168A13DA00FA0A02 /* CoreMedia.framework */; };
+		14068F39168A13E200FA0A02 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14068F38168A13E100FA0A02 /* CoreVideo.framework */; };
+		14068F3B168A13F800FA0A02 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14068F3A168A13F800FA0A02 /* QuartzCore.framework */; };
+		9A56937F21B677CB00AC83EA /* SRScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A56937D21B677CB00AC83EA /* SRScreenRecorder.m */; };
+		9AC3D2FB216B2B92004A4AF6 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC3D2FA216B2B92004A4AF6 /* MediaPlayer.framework */; };
+		9AC3D2FF216B5268004A4AF6 /* STAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC3D2FD216B5268004A4AF6 /* STAudioManager.m */; };
+		9ADE7387216CA45E00D1C02D /* IMG_3020.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 9ADE7386216CA45E00D1C02D /* IMG_3020.MOV */; };
+		9AF0DA5B216F3A560000D679 /* AACEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF0DA5A216F3A560000D679 /* AACEncoder.m */; };
+		9AF0DA5D216F3A8D0000D679 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF0DA5C216F3A8D0000D679 /* AudioToolbox.framework */; };
+		9AFAA629218AFAF0006DFFD1 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AFAA628218AFAF0006DFFD1 /* AVKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14068F00168A001400FA0A02 /* ScreenRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14068F04168A001400FA0A02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		14068F06168A001400FA0A02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14068F08168A001400FA0A02 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		14068F0C168A001400FA0A02 /* ScreenRecorder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScreenRecorder-Info.plist"; sourceTree = "<group>"; };
+		14068F0E168A001400FA0A02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14068F10168A001400FA0A02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14068F12168A001400FA0A02 /* ScreenRecorder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScreenRecorder-Prefix.pch"; sourceTree = "<group>"; };
+		14068F13168A001400FA0A02 /* SRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRAppDelegate.h; sourceTree = "<group>"; };
+		14068F14168A001400FA0A02 /* SRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRAppDelegate.m; sourceTree = "<group>"; };
+		14068F16168A001400FA0A02 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		14068F18168A001400FA0A02 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		14068F1A168A001400FA0A02 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		14068F1D168A001400FA0A02 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		14068F1F168A001400FA0A02 /* SRMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRMasterViewController.h; sourceTree = "<group>"; };
+		14068F20168A001400FA0A02 /* SRMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRMasterViewController.m; sourceTree = "<group>"; };
+		14068F22168A001400FA0A02 /* SRDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRDetailViewController.h; sourceTree = "<group>"; };
+		14068F23168A001400FA0A02 /* SRDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRDetailViewController.m; sourceTree = "<group>"; };
+		14068F2D168A01B100FA0A02 /* KTouchPointerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTouchPointerWindow.h; path = Vendor/KTouchPointerWindow.h; sourceTree = SOURCE_ROOT; };
+		14068F2E168A01B100FA0A02 /* KTouchPointerWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTouchPointerWindow.m; path = Vendor/KTouchPointerWindow.m; sourceTree = SOURCE_ROOT; };
+		14068F30168A02B300FA0A02 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		14068F36168A13DA00FA0A02 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		14068F38168A13E100FA0A02 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		14068F3A168A13F800FA0A02 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9A56937D21B677CB00AC83EA /* SRScreenRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRScreenRecorder.m; sourceTree = "<group>"; };
+		9A56937E21B677CB00AC83EA /* SRScreenRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRScreenRecorder.h; sourceTree = "<group>"; };
+		9AC3D2FA216B2B92004A4AF6 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		9AC3D2FD216B5268004A4AF6 /* STAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STAudioManager.m; sourceTree = "<group>"; };
+		9AC3D2FE216B5268004A4AF6 /* STAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STAudioManager.h; sourceTree = "<group>"; };
+		9ADE7386216CA45E00D1C02D /* IMG_3020.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_3020.MOV; sourceTree = "<group>"; };
+		9AF0DA59216F3A560000D679 /* AACEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AACEncoder.h; sourceTree = "<group>"; };
+		9AF0DA5A216F3A560000D679 /* AACEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AACEncoder.m; sourceTree = "<group>"; };
+		9AF0DA5C216F3A8D0000D679 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9AFAA628218AFAF0006DFFD1 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14068EFD168A001400FA0A02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFAA629218AFAF0006DFFD1 /* AVKit.framework in Frameworks */,
+				9AF0DA5D216F3A8D0000D679 /* AudioToolbox.framework in Frameworks */,
+				9AC3D2FB216B2B92004A4AF6 /* MediaPlayer.framework in Frameworks */,
+				14068F05168A001400FA0A02 /* UIKit.framework in Frameworks */,
+				14068F07168A001400FA0A02 /* Foundation.framework in Frameworks */,
+				14068F09168A001400FA0A02 /* CoreGraphics.framework in Frameworks */,
+				14068F3B168A13F800FA0A02 /* QuartzCore.framework in Frameworks */,
+				14068F39168A13E200FA0A02 /* CoreVideo.framework in Frameworks */,
+				14068F37168A13DA00FA0A02 /* CoreMedia.framework in Frameworks */,
+				14068F31168A02B300FA0A02 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14068EF5168A001400FA0A02 = {
+			isa = PBXGroup;
+			children = (
+				14068F0A168A001400FA0A02 /* ScreenRecorder */,
+				14068F03168A001400FA0A02 /* Frameworks */,
+				14068F01168A001400FA0A02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14068F01168A001400FA0A02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14068F00168A001400FA0A02 /* ScreenRecorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14068F03168A001400FA0A02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AFAA628218AFAF0006DFFD1 /* AVKit.framework */,
+				9AF0DA5C216F3A8D0000D679 /* AudioToolbox.framework */,
+				9AC3D2FA216B2B92004A4AF6 /* MediaPlayer.framework */,
+				14068F04168A001400FA0A02 /* UIKit.framework */,
+				14068F06168A001400FA0A02 /* Foundation.framework */,
+				14068F08168A001400FA0A02 /* CoreGraphics.framework */,
+				14068F3A168A13F800FA0A02 /* QuartzCore.framework */,
+				14068F38168A13E100FA0A02 /* CoreVideo.framework */,
+				14068F36168A13DA00FA0A02 /* CoreMedia.framework */,
+				14068F30168A02B300FA0A02 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14068F0A168A001400FA0A02 /* ScreenRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				14FD26F4168E3C48005DFD21 /* Lib */,
+				14FD26F5168E3C4F005DFD21 /* Vendor */,
+				14FD26F6168E3C57005DFD21 /* Demo App */,
+				14068F0B168A001400FA0A02 /* Supporting Files */,
+			);
+			path = ScreenRecorder;
+			sourceTree = "<group>";
+		};
+		14068F0B168A001400FA0A02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14068F0C168A001400FA0A02 /* ScreenRecorder-Info.plist */,
+				14068F0D168A001400FA0A02 /* InfoPlist.strings */,
+				14068F10168A001400FA0A02 /* main.m */,
+				14068F12168A001400FA0A02 /* ScreenRecorder-Prefix.pch */,
+				14068F16168A001400FA0A02 /* Default.png */,
+				14068F18168A001400FA0A02 /* Default@2x.png */,
+				14068F1A168A001400FA0A02 /* Default-568h@2x.png */,
+				9ADE7386216CA45E00D1C02D /* IMG_3020.MOV */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14FD26F4168E3C48005DFD21 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				9AFAA627218AD655006DFFD1 /* SRScreenRecorder */,
+				9AF0DA58216F3A560000D679 /* AACEncoder */,
+				9AC3D2FC216B5268004A4AF6 /* STAudioManager */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		14FD26F5168E3C4F005DFD21 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				14068F2D168A01B100FA0A02 /* KTouchPointerWindow.h */,
+				14068F2E168A01B100FA0A02 /* KTouchPointerWindow.m */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		14FD26F6168E3C57005DFD21 /* Demo App */ = {
+			isa = PBXGroup;
+			children = (
+				14068F13168A001400FA0A02 /* SRAppDelegate.h */,
+				14068F14168A001400FA0A02 /* SRAppDelegate.m */,
+				14068F1F168A001400FA0A02 /* SRMasterViewController.h */,
+				14068F20168A001400FA0A02 /* SRMasterViewController.m */,
+				14068F22168A001400FA0A02 /* SRDetailViewController.h */,
+				14068F23168A001400FA0A02 /* SRDetailViewController.m */,
+				14068F1C168A001400FA0A02 /* MainStoryboard.storyboard */,
+			);
+			name = "Demo App";
+			sourceTree = "<group>";
+		};
+		9AC3D2FC216B5268004A4AF6 /* STAudioManager */ = {
+			isa = PBXGroup;
+			children = (
+				9AC3D2FE216B5268004A4AF6 /* STAudioManager.h */,
+				9AC3D2FD216B5268004A4AF6 /* STAudioManager.m */,
+			);
+			path = STAudioManager;
+			sourceTree = "<group>";
+		};
+		9AF0DA58216F3A560000D679 /* AACEncoder */ = {
+			isa = PBXGroup;
+			children = (
+				9AF0DA59216F3A560000D679 /* AACEncoder.h */,
+				9AF0DA5A216F3A560000D679 /* AACEncoder.m */,
+			);
+			path = AACEncoder;
+			sourceTree = "<group>";
+		};
+		9AFAA627218AD655006DFFD1 /* SRScreenRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				9A56937E21B677CB00AC83EA /* SRScreenRecorder.h */,
+				9A56937D21B677CB00AC83EA /* SRScreenRecorder.m */,
+			);
+			name = SRScreenRecorder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14068EFF168A001400FA0A02 /* ScreenRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14068F27168A001400FA0A02 /* Build configuration list for PBXNativeTarget "ScreenRecorder" */;
+			buildPhases = (
+				14068EFC168A001400FA0A02 /* Sources */,
+				14068EFD168A001400FA0A02 /* Frameworks */,
+				14068EFE168A001400FA0A02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenRecorder;
+			productName = ScreenRecorder;
+			productReference = 14068F00168A001400FA0A02 /* ScreenRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14068EF7168A001400FA0A02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SR;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "kishikawa katsumi";
+				TargetAttributes = {
+					14068EFF168A001400FA0A02 = {
+						DevelopmentTeam = ST3FH2L823;
+					};
+				};
+			};
+			buildConfigurationList = 14068EFA168A001400FA0A02 /* Build configuration list for PBXProject "ScreenRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 14068EF5168A001400FA0A02;
+			productRefGroup = 14068F01168A001400FA0A02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14068EFF168A001400FA0A02 /* ScreenRecorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14068EFE168A001400FA0A02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14068F0F168A001400FA0A02 /* InfoPlist.strings in Resources */,
+				9ADE7387216CA45E00D1C02D /* IMG_3020.MOV in Resources */,
+				14068F17168A001400FA0A02 /* Default.png in Resources */,
+				14068F19168A001400FA0A02 /* Default@2x.png in Resources */,
+				14068F1B168A001400FA0A02 /* Default-568h@2x.png in Resources */,
+				14068F1E168A001400FA0A02 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14068EFC168A001400FA0A02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14068F11168A001400FA0A02 /* main.m in Sources */,
+				14068F15168A001400FA0A02 /* SRAppDelegate.m in Sources */,
+				14068F21168A001400FA0A02 /* SRMasterViewController.m in Sources */,
+				14068F24168A001400FA0A02 /* SRDetailViewController.m in Sources */,
+				9AF0DA5B216F3A560000D679 /* AACEncoder.m in Sources */,
+				9AC3D2FF216B5268004A4AF6 /* STAudioManager.m in Sources */,
+				14068F2F168A01B100FA0A02 /* KTouchPointerWindow.m in Sources */,
+				9A56937F21B677CB00AC83EA /* SRScreenRecorder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14068F0D168A001400FA0A02 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14068F0E168A001400FA0A02 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		14068F1C168A001400FA0A02 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14068F1D168A001400FA0A02 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14068F25168A001400FA0A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14068F26168A001400FA0A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14068F28168A001400FA0A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ST3FH2L823;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenRecorder/ScreenRecorder-Prefix.pch";
+				INFOPLIST_FILE = "ScreenRecorder/ScreenRecorder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kishikawakatsumi.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		14068F29168A001400FA0A02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ST3FH2L823;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenRecorder/ScreenRecorder-Prefix.pch";
+				INFOPLIST_FILE = "ScreenRecorder/ScreenRecorder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kishikawakatsumi.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14068EFA168A001400FA0A02 /* Build configuration list for PBXProject "ScreenRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14068F25168A001400FA0A02 /* Debug */,
+				14068F26168A001400FA0A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14068F27168A001400FA0A02 /* Build configuration list for PBXNativeTarget "ScreenRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14068F28168A001400FA0A02 /* Debug */,
+				14068F29168A001400FA0A02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14068EF7168A001400FA0A02 /* Project object */;
+}
